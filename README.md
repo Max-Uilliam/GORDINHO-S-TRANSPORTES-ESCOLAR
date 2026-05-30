@@ -31,33 +31,33 @@ Desenvolver interfaces simples e objetiva
 Implementar funcionalidades de cadastro e consulta de informações;
 Melhorar a acessibilidade e praticidade para os usuários;
 
-5. Escopo do Projeto
-   src/
-├── types/index.ts          — Tipagem TypeScript completa
-├── data/mockData.ts        — Dados simulados (pronto para integração com API)
-├── components/
-│   ├── Sidebar.tsx         — Navegação lateral responsiva
-│   ├── Dashboard.tsx       — Painel de controle principal
-│   ├── StudentsView.tsx    — Lista e filtros de alunos
-│   ├── StudentDetail.tsx   — Perfil completo do aluno
-│   ├── GuardiansView.tsx   — Cards de responsáveis
-│   ├── GuardianDetail.tsx  — Perfil do responsável
-│   ├── PaymentsView.tsx    — Gestão de mensalidades
-│   ├── AttendanceView.tsx  — Lista de presença interativa
-│   ├── ReportsView.tsx     — Relatórios e gráficos de receita
-│   └── SettingsView.tsx    — Configurações do sistema
-└── App.tsx                 — Roteamento e layout principal
+5. Escopo do Projeto<br>
+   src/<br>
+├── types/index.ts          — Tipagem TypeScript completa<br>
+├── data/mockData.ts        — Dados simulados (pronto para integração com API)<br>
+├── components/<br>
+│   ├── Sidebar.tsx         — Navegação lateral responsiva<br>
+│   ├── Dashboard.tsx       — Painel de controle principal<br>
+│   ├── StudentsView.tsx    — Lista e filtros de alunos<br>
+│   ├── StudentDetail.tsx   — Perfil completo do aluno<br>
+│   ├── GuardiansView.tsx   — Cards de responsáveis<br>
+│   ├── GuardianDetail.tsx  — Perfil do responsável<br>
+│   ├── PaymentsView.tsx    — Gestão de mensalidades<br>
+│   ├── AttendanceView.tsx  — Lista de presença interativa<br>
+│   ├── ReportsView.tsx     — Relatórios e gráficos de receita<br>
+│   └── SettingsView.tsx    — Configurações do sistema<br>
+└── App.tsx                 — Roteamento e layout principal<br>
 
 
-Funcionalidades Implementadas
-Módulo - O que faz
-Dashboard -	KPIs financeiros, rota do dia, alertas de inadimplência, status de presença
-Alunos -	Busca, filtro por turno, foto, escola, série, acesso ao endereço via Maps
-Responsáveis -	Cards com contato direto via ligação ou WhatsApp com mensagem pré-formatada
-Mensalidades -	Status pago/pendente/atraso, filtro por mês, marcar como pago, cobrar via WhatsApp
-Presença -	Marcação em tempo real (Presente/Ausente/Justificado), bulk actions
-Relatórios -	Receita mensal, taxa de adimplência, projeção anual, ticket médio
-Configurações -	Dados do negócio, valores de mensalidade, segurança, status de sync offline
+Funcionalidades Implementadas<br>
+Módulo - O que faz<br>
+Dashboard -	KPIs financeiros, rota do dia, alertas de inadimplência, status de presença<br>
+Alunos -	Busca, filtro por turno, foto, escola, série, acesso ao endereço via Maps<br>
+Responsáveis -	Cards com contato direto via ligação ou WhatsApp com mensagem pré-formatada<br>
+Mensalidades -	Status pago/pendente/atraso, filtro por mês, marcar como pago, cobrar via WhatsApp<br>
+Presença -	Marcação em tempo real (Presente/Ausente/Justificado), bulk actions<br>
+Relatórios -	Receita mensal, taxa de adimplência, projeção anual, ticket médio<br>
+Configurações -	Dados do negócio, valores de mensalidade, segurança, status de sync offline<br>
 
 # RODANDO O PROJETO
 
